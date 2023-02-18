@@ -493,6 +493,7 @@
                 .link_btn li a{
                     display: block;
                     padding: 15px;
+                    transition: all 0.4s ease;
                 }
                 .link_btn li:hover{background-color: #1c53cf;}
                 .link_btn li:hover a{color: #f3f5f9;}
@@ -1001,6 +1002,35 @@
                     /* portfolio 04 */
                         .con_wrap4 .cw.cen{text-align: left;}
                         .con_wrap4 .txt_wrap{width: 90vw;}
+                        /* slide */
+                            /* pagination */
+                                .slick-dots{
+                                    margin-top:30px;
+                                    padding: 0;
+                                    text-align:center;
+                                }
+                                .slick-dots li{
+                                    display: inline-block;
+                                    margin: 0 4px;
+                                }
+                                .slick-dots li.slick-active button{
+                                    background-color: #1c53cf;
+                                }
+                                .slick-dots li button{
+                                    width:9px;
+                                    height:9px;
+                                    text-shadow: none;
+                                    color: transparent;
+                                    border: none;
+                                    background-color: #ccc;
+                                    border-radius: 50%;
+                                    font: 0;
+                                }
+                                .slick-dots li :hover{
+                                    background-color: #1c53cf;
+                                }
+                            /* pagination */
+                        /* slide */
                     /* portfolio 04 */
                 /* section */
             }
