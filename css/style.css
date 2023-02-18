@@ -215,6 +215,7 @@
         /* empty txt */
             .empty_txt{
                 width: 100%;
+                max-width: 1920px;
                 height: auto;
                 padding: 20px 0;
             }
