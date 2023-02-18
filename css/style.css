@@ -44,7 +44,7 @@
     }
 
     ol, ul, li {list-style: none;}
-    ::selection{color: #1c53cf;}
+    ::selection{background-color: #1c53cf;}
 /* reset css */
 
 
